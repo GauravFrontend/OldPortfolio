@@ -1,0 +1,314 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+    box-sizing: border-box;
+    font-family: "Neue Montreal";
+    background-color: #151414;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+#main {
+    padding: 0vw 1.5vw;
+    width: 100%;
+    height: 100vh;
+}
+
+#hero {
+    width: 100%;
+
+}
+
+#nav {
+    position: relative;
+    width: 100%;
+    height: 4vw;
+    font-size: 1rem;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #D9D9D9;
+
+}
+
+a {
+    letter-spacing: 1px;
+    text-decoration: none;
+    color: #D9D9D9;
+}
+
+#nleft {
+    align-items: center;
+    display: flex;
+
+}
+
+#nmiddle {
+    display: flex;
+    gap: 17px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#nright {
+    align-items: center;
+    display: flex;
+    gap: 15px;
+}
+
+#name {
+    margin-top: 2vw;
+    padding-bottom: 2vw;
+    justify-content: center;
+    border-bottom: 1px solid #D9D9D9;
+    color: #D9D9D9;
+    width: 100%;
+
+    font-size: 7vw;
+}
+
+#name h1 {
+    line-height: .8;
+    font-weight: 400;
+}
+
+#sharma {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+
+}
+
+.sharma {
+    width: min-content;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+
+}
+
+
+#skill {
+    font-size: 1rem;
+    width: 100%;
+    height: 4.3vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#skill h2 {
+    font-size: 1rem;
+    color: #D9D9D9;
+}
+
+#globe {
+    width: 13%;
+    height: min-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+#globe img {
+    background-color: transparent;
+    width: 100%;
+    height: 100%;
+}
+
+#scrollCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 65px;
+}
+
+#scroll {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10%;
+
+}
+
+#scroll img {
+    background-color: transparent;
+    width: 100%;
+    height: 100%;
+}
+
+/* ********************* PROJECT *************************** */
+
+#project {
+    margin-top: 8vw;
+    width: 100%;
+    object-fit: cover;
+}
+
+#project img {
+    width: 100%;
+}
+
+#tag {
+    padding-bottom: 9vw;
+    color: #D9D9D9;
+    font-size: 5.5vw;
+
+}
+
+#frontend {
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 4vw;
+}
+
+#frontimg {
+    width: 50%;
+    height: 70%;
+
+    overflow: hidden;
+}
+
+#frontend h2 {
+    width: min-content;
+}
+
+#frontend #frontimg img {
+    width: 100%;
+    height: 100%;
+}
+
+#developer {
+    display: flex;
+    justify-content: end;
+    margin-top: 1vw;
+}
+
+
+
+
+#second {
+    overflow: hidden;
+    color: #fff;
+
+    background-color: #151414;
+    width: 100%;
+    height: 100vh;
+}
+
+.elem {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 3.5vw 3vw;
+    padding-right: 0;
+    border-top: 1px solid #888;
+}
+
+.elem h1 {
+    text-transform: uppercase;
+    font-size: 7.6vw;
+    opacity: .7;
+}
+
+.elemlast {
+    border-bottom: 1px solid #888;
+}
+
+.elem img {
+    opacity: 0;
+    pointer-events: none;
+    height: 140%;
+    z-index: 999;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+
+#about {
+    background-color: #151414;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    color: #fff;
+    padding: 10vw 10vw;
+    padding-left: 35vw;
+    width: 100%;
+
+}
+
+#textabout {
+    width: 36rem;
+}
+
+#textabout h5 {
+    text-transform: uppercase;
+    opacity: .6;
+    margin-bottom: 10px;
+}
+
+#textabout p {
+    font-size: 1.5rem;
+    line-height: 1.7;
+    margin-bottom: 30px;
+}
+
+#about img {
+    border-radius: 500px;
+    width: 320px;
+    
+}
+
+#textabout a {
+    padding: 12px 22px;
+    border: 1px solid #fff;
+    border-radius: 100px;
+    color: #fff;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+
+#footer {
+    color: #fff;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 30px;
+}
+
+#footerleft {
+    display: flex;
+    gap: 20px;
+}
+
+#footerright {
+    font-size: 1rem;
+    display: flex;
+    gap: 30px;
+}
+
+#footer h5 {
+    font-size: 1rem;
+}
+
+#footer a {
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #fff;
+    text-decoration: none;
+}
