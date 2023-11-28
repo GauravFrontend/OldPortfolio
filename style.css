@@ -26,7 +26,6 @@ body {
 
 #hero {
     width: 100%;
-
 }
 
 #nav {
@@ -36,20 +35,18 @@ body {
     font-size: 1rem;
     display: flex;
     justify-content: space-between;
-    border-bottom: 1px solid #D9D9D9;
-
+    border-bottom: 1px solid #d9d9d9;
 }
 
 a {
     letter-spacing: 1px;
     text-decoration: none;
-    color: #D9D9D9;
+    color: #d9d9d9;
 }
 
 #nleft {
     align-items: center;
     display: flex;
-
 }
 
 #nmiddle {
@@ -71,15 +68,15 @@ a {
     margin-top: 2vw;
     padding-bottom: 2vw;
     justify-content: center;
-    border-bottom: 1px solid #D9D9D9;
-    color: #D9D9D9;
+    border-bottom: 1px solid #d9d9d9;
+    color: #d9d9d9;
     width: 100%;
 
     font-size: 7vw;
 }
 
 #name h1 {
-    line-height: .8;
+    line-height: 0.8;
     font-weight: 400;
 }
 
@@ -87,7 +84,6 @@ a {
     display: flex;
     justify-content: end;
     align-items: center;
-
 }
 
 .sharma {
@@ -95,9 +91,7 @@ a {
     display: flex;
     justify-content: end;
     align-items: center;
-
 }
-
 
 #skill {
     font-size: 1rem;
@@ -110,7 +104,7 @@ a {
 
 #skill h2 {
     font-size: 1rem;
-    color: #D9D9D9;
+    color: #d9d9d9;
 }
 
 #globe {
@@ -119,8 +113,6 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-
-
 }
 
 #globe img {
@@ -141,7 +133,6 @@ a {
     justify-content: center;
     align-items: center;
     width: 10%;
-
 }
 
 #scroll img {
@@ -150,10 +141,287 @@ a {
     height: 100%;
 }
 
+/* *********************** ABOUTME *************************** */
+#aboutme {
+    margin-top: 20vw;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    color: #d9d9d9;
+
+    border-bottom: 2px solid #d9d9d9;
+    padding-bottom: 3vw;
+    margin-bottom: 3vw;
+}
+
+#aboutleft {
+    background-color: green;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 65%;
+}
+
+#aboutleft h2 {
+    border-right: 2px solid #d9d9d9;
+    font-size: 5vw;
+}
+
+#aboutright {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+    width: 31%;
+}
+
+#aboutright h2 {
+    font-size: 2vw;
+}
+
+#aboutright i {
+    padding-top: 18.5vw;
+    font-size: 3vw;
+}
+
+#abouticons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 25px;
+}
+
+/* ********************* SKILLS ***************************** */
+#skills {
+    border-bottom: 2px solid #d9d9d9;
+    padding: 50px;
+    height: 30vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    color: #d9d9d9;
+
+}
+
+#skillsleft {
+    height: 100%;
+    width: 25%;
+
+    border-right: 2px solid #d9d9d9;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    padding-top: 5px;
+
+    padding-right: 25px;
+}
+
+#skillsleft h2 {
+    font-size: 2vw;
+}
+
+#skillsleft i {
+    font-size: 2vw;
+}
+
+#skillsright {
+    height: 100%;
+
+    width: 70%;
+}
+
+#skillrighttop {
+    display: flex;
+
+    height: 50%;
+    border-bottom: 2px solid #d9d9d9;
+}
+
+#skillone {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    width: 50%;
+
+    height: 100%;
+}
+
+#skillone h2 {
+
+    font-size: 2.5vw;
+}
+
+#skillone p {
+
+    width: 59%;
+    padding-bottom: 60px;
+    font-size: 1vw;
+    width: 50%;
+}
+
+#skilltwomask {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    width: 50%;
+
+
+    height: 100%;
+}
+
+#skilltwo {
+    border-left: 2px solid #d9d9d9;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    margin-bottom: 50px;
+
+    height: 100%;
+}
+
+#skilltwo h2 {
+    padding-left: 50px;
+    font-size: 2.5vw;
+}
+
+#skilltwo p {
+    padding-left: 50px;
+    width: 59%;
+    padding-bottom: 10px;
+    font-size: 1vw;
+    width: 50%;
+}
+
+#skillrightbottom {
+    display: flex;
+
+    height: 50%;
+}
+
+#skillthree {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    width: 50%;
+    height: 100%;
+}
+
+#skillthree h2 {
+
+    font-size: 2.5vw;
+}
+
+#skillthree p {
+
+    width: 50%;
+    padding-bottom: 50px;
+    font-size: 1vw;
+}
+
+#skillfourmask {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    width: 50%;
+    height: 100%;
+
+}
+
+#skillfour {
+
+    border-left: 2px solid #d9d9d9;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    margin-top: 50px;
+    height: 100%;
+}
+
+#skillfour h2 {
+    padding-left: 50px;
+    font-size: 2.5vw;
+}
+
+#skillfour p {
+    padding-left: 50px;
+    width: 59%;
+
+    font-size: 1vw;
+    width: 50%;
+}
+
+/* ************************* Work Slider **************************** */
+@keyframes slide {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+.work {
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+    display: flex;
+    gap: 40px;
+    color: #d9d9d9;
+    overflow: hidden;
+
+    background-color: #151414;
+    white-space: nowrap;
+    position: relative;
+}
+
+.work:before,
+.work:after {
+    position: absolute;
+    top: 0;
+    width: 250px;
+    height: 100%;
+    content: "";
+    z-index: 2;
+}
+
+
+
+.work:hover .work-slide {
+    animation-play-state: paused;
+}
+
+.work-slide {
+    display: inline-block;
+    display: flex;
+    gap: 40px;
+    justify-content: space-between;
+    font-size: 5vw;
+    /* border-top: 2px solid #d9d9d9;
+    border-bottom: 2px solid #d9d9d9; */
+    animation: 35s slide infinite linear;
+}
+
+
+
+
+
+
+
 /* ********************* PROJECT *************************** */
 
 #project {
     margin-top: 8vw;
+    margin-bottom: 8vw;
     width: 100%;
     object-fit: cover;
 }
@@ -161,46 +429,6 @@ a {
 #project img {
     width: 100%;
 }
-
-#tag {
-    padding-bottom: 9vw;
-    color: #D9D9D9;
-    font-size: 5.5vw;
-
-}
-
-#frontend {
-    height: 200px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 4vw;
-}
-
-#frontimg {
-    width: 50%;
-    height: 70%;
-
-    overflow: hidden;
-}
-
-#frontend h2 {
-    width: min-content;
-}
-
-#frontend #frontimg img {
-    width: 100%;
-    height: 100%;
-}
-
-#developer {
-    display: flex;
-    justify-content: end;
-    margin-top: 1vw;
-}
-
-
-
 
 #second {
     overflow: hidden;
@@ -219,17 +447,17 @@ a {
     width: 100%;
     padding: 3.5vw 3vw;
     padding-right: 0;
-    border-top: 1px solid #888;
+    border-top: 2px solid #d9d9d9;
 }
 
 .elem h1 {
     text-transform: uppercase;
     font-size: 7.6vw;
-    opacity: .7;
+    opacity: 0.7;
 }
 
 .elemlast {
-    border-bottom: 1px solid #888;
+    border-bottom: 2px solid #d9d9d9;
 }
 
 .elem img {
@@ -241,39 +469,41 @@ a {
     transform: translate(-50%, -50%);
 }
 
-
 #about {
-    background-color: #151414;
+
     display: flex;
     align-items: center;
     gap: 50px;
     color: #fff;
+    height: 80vh;
     padding: 10vw 10vw;
     padding-left: 35vw;
     width: 100%;
-
 }
 
 #textabout {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     width: 36rem;
 }
 
 #textabout h5 {
-    text-transform: uppercase;
-    opacity: .6;
-    margin-bottom: 10px;
+    font-size: 2.5vw;
+    opacity: 0.6;
+    margin-bottom: 20px;
 }
 
-#textabout p {
-    font-size: 1.5rem;
-    line-height: 1.7;
+#textabout h1 {
+    font-size: 5vw;
     margin-bottom: 30px;
 }
+
 
 #about img {
     border-radius: 500px;
     width: 320px;
-    
 }
 
 #textabout a {
@@ -281,10 +511,9 @@ a {
     border: 1px solid #fff;
     border-radius: 100px;
     color: #fff;
-    font-size: 12px;
+    font-size: 1vw;
     text-decoration: none;
 }
-
 
 #footer {
     color: #fff;
