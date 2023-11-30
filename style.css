@@ -34,7 +34,7 @@ body {
     position: relative;
     width: 100%;
     height: 4vw;
-    font-size: 1rem;
+    font-size: 0.95vw;
     display: flex;
     justify-content: space-between;
     border-bottom: 1px solid #d9d9d9;
@@ -150,14 +150,12 @@ a {
     align-items: start;
     justify-content: space-between;
     color: #d9d9d9;
-
     border-bottom: 2px solid #d9d9d9;
     padding-bottom: 3vw;
     margin-bottom: 3vw;
 }
 
 #aboutleft {
-    background-color: green;
 
     display: flex;
     align-items: center;
@@ -230,13 +228,11 @@ a {
 
 #skillsright {
     height: 100%;
-
     width: 70%;
 }
 
 #skillrighttop {
     display: flex;
-
     height: 50%;
     border-bottom: 2px solid #d9d9d9;
 }
@@ -247,7 +243,6 @@ a {
     justify-content: space-between;
     align-items: start;
     width: 50%;
-
     height: 100%;
 }
 
@@ -380,7 +375,6 @@ a {
     gap: 40px;
     color: #d9d9d9;
     overflow: hidden;
-
     background-color: #151414;
     white-space: nowrap;
     position: relative;
@@ -398,9 +392,9 @@ a {
 
 
 
-.work:hover .work-slide {
+/* .work:hover .work-slide {
     animation-play-state: paused;
-}
+} */
 
 .work-slide {
     display: inline-block;
@@ -472,14 +466,13 @@ a {
 }
 
 #about {
-
     display: flex;
     align-items: center;
+    justify-content: center;
     gap: 50px;
     color: #fff;
     height: 80vh;
     padding: 10vw 10vw;
-    padding-left: 35vw;
     width: 100%;
 }
 
@@ -564,20 +557,21 @@ a {
     pointer-events: none;
     transition: width 0.5s, height 0.5s;
 }
-.hidouter{
+
+.hidouter {
     opacity: 0;
 }
 
 .grow {
     z-index: 2;
-    width:80px;
+    width: 80px;
     height: 80px;
     transition: width 0.5s, height 0.5s;
 }
 
 .outer-cursor {
     z-index: 2;
-    background-color: #151414;
+    background-color: transparent;
     position: fixed;
     left: 10px;
     width: 60px;
@@ -588,4 +582,271 @@ a {
     border-radius: 50%;
     pointer-events: none;
 
+}
+
+
+/* ****************** Responsive ********************** */
+
+@media (max-width:600px) {
+.inner-cursor{
+    height: 0;
+    width: 0;
+    opacity: 0;
+}
+.outer-cursor{
+    height: 0;
+    width: 0;
+    opacity: 0;
+}
+*{
+    cursor: default;
+}
+    #main {
+
+        padding: 0vw 5vw;
+        width: 100%;
+        height: 100vh;
+    }
+    #nav{
+        height: 10vw;
+        font-size: 3vw;
+    }
+    #nmiddle {
+        display: flex;
+        gap: 17px;
+        position: absolute;
+        top: 50%;
+        left: 90%;
+        transform: translate(-63%, -50%);
+    }
+    #nright {
+       height: 0;
+       width: 0;
+       opacity: 0;
+    }
+    
+    #globe {
+        width: 0;
+    }
+
+    #gaurav {
+        font-size: 11vw;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        margin-bottom: 3vw;
+        margin-top: 10vw;
+    }
+
+    #sharma {
+        font-size: 10.5vw;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        margin-bottom: 9vw;
+    }
+
+    #skill {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: start;
+        margin-top: 10vw;
+        gap: 5vw;
+    }
+
+    #scrollCenter {
+        margin-top: 45vw;
+    }
+
+    #scroll {
+        width: 30%;
+    }
+
+    #aboutme {
+        flex-direction: column-reverse;
+    }
+
+    #aboutleft {
+        width: 100%;
+    }
+
+    #aboutleft h2 {
+        font-size: 7.5vw;
+        border: none;
+        margin-bottom: 10vw;
+    }
+
+    #aboutright {
+        flex-direction: row;
+        width: 100%;
+    }
+
+    #aboutright h2 {
+        line-height: 20vw;
+        font-size: 10vw;
+        border-bottom: 2px solid #d9d9d9;
+        margin-bottom: 5vw;
+    }
+
+    #abouticons {
+        width: 0;
+        height: 0;
+    }
+
+    #aboutright i {
+        width: 0;
+        height: 0;
+        font-size: 0;
+    }
+
+    #skills {
+        flex-direction: column;
+        height: 100vh;
+        font-size: 1vw;
+        padding: 0;
+        height: max-content;
+
+    }
+
+    #skillsleft {
+        width: 100%;
+        border: none;
+    }
+
+    #skillsleft h2 {
+        line-height: 20vw;
+        font-size: 10vw;
+        border-bottom: 2px solid #d9d9d9;
+        margin-bottom: 10vw;
+    }
+
+    #skillsleft i {
+        font-size: 0;
+    }
+
+    #skillsright {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+
+    }
+
+    #skillrighttop {
+        flex-direction: column;
+        border: none;
+    }
+
+    #skillone {
+        width: 100%;
+    }
+
+    #skillone h2 {
+        font-size: 10vw;
+        margin-bottom: 1.5vw;
+    }
+
+    #skillone p {
+        width: 100%;
+        padding-bottom: 60px;
+        font-size: 5vw;
+    }
+
+    #skilltwo {
+        border: none;
+        margin-bottom: 1.5vw;
+    }
+
+    #skilltwomask {
+        width: 100%;
+    }
+
+    #skilltwo h2 {
+        padding-left: 0;
+        font-size: 10vw;
+    }
+
+    #skilltwo p {
+        padding-left: 0;
+        width: 100%;
+        padding-bottom: 60px;
+        font-size: 5vw;
+    }
+
+    #skillrightbottom {
+        flex-direction: column;
+    }
+
+    #skillthree {
+        margin-top: 0;
+
+        width: 100%;
+    }
+
+    #skillthree h2 {
+        margin-bottom: 1.5vw;
+        padding-left: 0;
+        font-size: 10vw;
+    }
+
+    #skillthree p {
+
+        padding-left: 0;
+        width: 100%;
+        padding-bottom: 60px;
+        font-size: 5vw;
+    }
+
+    #skillfourmask {
+        width: 100%;
+    }
+
+    #skillfour {
+        margin-top: 0;
+        width: 100%;
+        border: none;
+    }
+
+    #skillfour h2 {
+        margin-bottom: 1.5vw;
+        padding-left: 0;
+        font-size: 10vw;
+    }
+
+    #skillfour p {
+        padding-left: 0;
+        width: 100%;
+        padding-bottom: 60px;
+        font-size: 5vw;
+    }
+
+    .work-slide {
+        font-size: 10vw;
+        gap: 20px;
+    }
+    #second {
+        height: 30vh;
+    }
+    #about {
+        height: 40vh;
+    }
+    #textabout h5 {
+        font-size:7.5vw;
+        margin-bottom: 5px;
+    }
+    
+    #textabout h1 {
+        font-size: 15vw;
+        margin-bottom: 3vw;
+    }
+    #textabout a {
+
+        font-size: 5vw;
+    }
+    #footer h5 {
+        font-size: 3vw;
+    }
+    #footer a {
+        font-size: 3vw;
+    }
 }
