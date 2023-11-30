@@ -601,13 +601,13 @@ a {
 *{
     cursor: default;
 }
+
     #main {
 
         padding: 0vw 5vw;
-        width: 100%;
-        height: 100vh;
+       
     }
-    #nav{
+    #nav{overflow: hidden;
         height: 10vw;
         font-size: 3vw;
     }
